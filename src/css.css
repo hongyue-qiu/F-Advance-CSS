@@ -113,8 +113,9 @@ nav{
     background-color: #eee;
     color: grey;
     height: 120px;
-    line-height: 70px;
     text-align: center;
-    clear: both;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
 }
