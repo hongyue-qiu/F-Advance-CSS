@@ -57,6 +57,13 @@ nav{
     line-height: 100px;
     text-align: center;
 }
+.text{
+    padding: 20px 10px;
+}
+.view-detail{
+    color: #1e81fe;
+    margin: 10px 0px;
+}
 .article{
     border: 1px solid pink;
     width: 46%;
