@@ -44,9 +44,9 @@ nav{
     flex-flow: column wrap;
     height: calc(100vh - 240px);
 }
-.article:nth-child(1) { order: 1; }
-.article:nth-child(2) { order: 3; }
-.article:nth-child(3)   { order: 2; }
+.article:nth-child(1) { order: 1;height: 37% }
+.article:nth-child(2) { order: 3;height: 77% }
+.article:nth-child(3) { order: 2;height: 48% }
 .img{
     color: white;
     background-color: gray;
@@ -65,8 +65,10 @@ nav{
 .article{
     width: 46%;
     /*float: left;*/
+    border: 1px solid gainsboro;
     margin-left: 2%;
     margin-bottom: 5%;
+    overflow:auto;
 }
 /*.article-special{*/
 /*    position: relative;*/
@@ -115,6 +117,4 @@ nav{
     text-align: center;
     clear: both;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
 }
