@@ -41,7 +41,14 @@ nav{
     padding: 0px 5%;
     border: 1px solid black;
     /*float: left;*/
+
+    display: flex;
+    flex-flow: column wrap;
+    height: calc(100vh - 240px);
 }
+.article:nth-child(1) { order: 1; }
+.article:nth-child(2) { order: 3; }
+.article:nth-child(3)   { order: 2; }
 .img{
     color: white;
     background-color: gray;
@@ -55,11 +62,12 @@ nav{
     width: 46%;
     /*float: left;*/
     margin-left: 2%;
+    margin-bottom: 5%;
 }
-.article-special{
-    position: relative;
-    top: -240px;
-}
+/*.article-special{*/
+/*    position: relative;*/
+/*    top: -240px;*/
+/*}*/
 .aside-login{
     display: flex;
     align-content: center;
@@ -104,5 +112,5 @@ nav{
     clear: both;
     width: 100%;
     position: absolute;
-    bottom: -90px;
+    bottom: 0px;
 }
