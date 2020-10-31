@@ -31,7 +31,6 @@ nav{
     font-weight: normal;
 }
 .aside-item{
-    border: 1px solid black;
     width: 100%;
     padding: 30px 10px;
 }
@@ -39,7 +38,6 @@ nav{
     width: calc(60% - 40px);
     margin: 0px 20px;
     padding: 0px 5%;
-    border: 1px solid black;
     /*float: left;*/
 
     display: flex;
@@ -65,7 +63,6 @@ nav{
     margin: 10px 0px;
 }
 .article{
-    border: 1px solid pink;
     width: 46%;
     /*float: left;*/
     margin-left: 2%;
